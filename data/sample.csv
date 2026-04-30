@@ -1,0 +1,4 @@
+scenario,surface,funnel_stage,risk_type,persona_tag
+신규 온보딩 CTA 이해도,mobile,entry,confusion,벼락치기형
+회고 작성 완료 동선,web,activate,friction,완벽주의형
+실패 후 재시도 복구 경로,mobile,retain,error-recovery,불안·회피형

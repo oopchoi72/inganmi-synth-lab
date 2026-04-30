@@ -18,7 +18,24 @@ POC 1회 실행 로그는 항상 `docs/experiments/<run_id>.json` + `<run_id>.md
   },
   "inputs": {
     "source": "inline_seed | /absolute/or/relative/path.csv",
-    "row_count": 2
+    "row_count": 2,
+    "dimensions": {
+      "surface": {
+        "mobile": 2
+      },
+      "funnel_stage": {
+        "entry": 1,
+        "activate": 1
+      },
+      "risk_type": {
+        "confusion": 1,
+        "friction": 1
+      },
+      "persona_tag": {
+        "벼락치기형": 1,
+        "완벽주의형": 1
+      }
+    }
   },
   "outputs": {
     "provider": "gemini | openai | anthropic | fallback",
