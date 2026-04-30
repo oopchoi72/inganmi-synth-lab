@@ -47,3 +47,6 @@ bash scripts/run_bootstrap.sh
 
 ## 상태
 - bootstrap 단계 (저비용 운영)
+
+## License
+- MIT
