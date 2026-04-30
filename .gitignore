@@ -1,0 +1,10 @@
+.env
+.DS_Store
+data/*
+!data/.gitkeep
+*.log
+docs/experiments/*.json
+docs/experiments/[0-9]*.md
+__pycache__/
+.pytest_cache/
+.venv/
